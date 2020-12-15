@@ -36,6 +36,6 @@ allows me to make my childhood dreams from thirty-something years ago
 come true! Joe Granato is a boss.
 
 ## External resources
-[Development thread at NESmakers.com](https://www.nesmakers.com/index.php?threads/mooooo.6565/)
-[My forum profile](https://www.nesmakers.com/index.php?members/kevin81.17159/)
+[Development thread at NESmakers.com](https://www.nesmakers.com/index.php?threads/mooooo.6565/)  
+[My forum profile](https://www.nesmakers.com/index.php?members/kevin81.17159/)  
 [NESmaker](https://thenew8bitheroes.com)
