@@ -4,6 +4,19 @@
 
 MOOVE_UP = #0
 
+;; Input not allowed = do nothing
+	LDA allowInput
+	BNE +
+		RTS
+	+
+
+;; More than only up pressed = do nothing
+	LDA gamepad
+	CMP #%00010000
+	BEQ +
+		RTS
+	+	
+
 ;; ActionStep 5 = do nothing
 	GetActionStep player1_object
 	CMP #$05
@@ -111,7 +124,6 @@ MOOVE_UP = #0
 
 +doWinner:
     ;; Play sound sfx_winner
-	; StopSound
 	PlaySound #sfx_moo
 
     ;; and set player action step to 5

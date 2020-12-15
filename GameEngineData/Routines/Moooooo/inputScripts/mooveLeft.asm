@@ -4,6 +4,19 @@
 
 MOOVE_LEFT = #2
 
+;; Input not allowed = do nothing
+	LDA allowInput
+	BNE +
+		RTS
+	+
+
+;; More than only left pressed = do nothing
+	LDA gamepad
+	CMP #%01000000
+	BEQ +
+		RTS
+	+	
+
 ;; ActionStep 5 = do nothing
 	GetActionStep player1_object
 	CMP #$05
@@ -111,7 +124,6 @@ MOOVE_LEFT = #2
 
 +doWinner:
     ;; Play sound sfx_winner
-	; StopSound
 	PlaySound #sfx_moo
 
     ;; and set player action step to 5

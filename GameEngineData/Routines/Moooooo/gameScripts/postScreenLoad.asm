@@ -8,9 +8,12 @@
 	BEQ	+
 	;; Reset player animation
 		ChangeActionStep player1_object, #$00
-		JMP +doNotHide
+		JMP +enableInput
 	+
 	
 	ChangeActionStep player1_object, #$06
-+doNotHide:
-	
+
+;; Tell the game to allow input from here on
++enableInput:
+	LDA #$01
+	STA allowInput
