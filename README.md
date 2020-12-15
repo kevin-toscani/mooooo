@@ -30,6 +30,12 @@ and/or provided me with some pointers, advice and motivation to keep
 working on the game. In no particular order, shout out to: CutterCross,
 dale_coop, jim, JollyShadow, Jonny, Logana and mouse spirit.
 
+And of course the biggest shout out (which I almost forgot, shame on me)
+goes out to The New 8 Bit Heroes, for providing me with a tool which
+allows me to make my childhood dreams from thirty-something years ago
+come true! Joe Granato is a boss.
+
 ## External resources
 [Development thread at NESmakers.com](https://www.nesmakers.com/index.php?threads/mooooo.6565/)
 [My forum profile](https://www.nesmakers.com/index.php?members/kevin81.17159/)
+[NESmaker](https://thenew8bitheroes.com)
