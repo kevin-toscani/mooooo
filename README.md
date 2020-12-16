@@ -39,3 +39,6 @@ come true! Joe Granato is a boss.
 [Development thread at NESmakers.com](https://www.nesmakers.com/index.php?threads/mooooo.6565/)  
 [My forum profile](https://www.nesmakers.com/index.php?members/kevin81.17159/)  
 [NESmaker](https://thenew8bitheroes.com)
+
+Main font is based on [Daddy Cool](https://damieng.com/typography/zx-origins/) by DamienG.  
+Heading font is [HVD Comic Serif Pro](https://www.1001fonts.com/hvd-comic-serif-pro-font.html) by HVD Fonts.
