@@ -27,8 +27,9 @@ hope you enjoy the demo and love to hear what you think!
 ## Thanks
 Thanks go out to the NESmakers forum users that playtested my game
 and/or provided me with some pointers, advice and motivation to keep
-working on the game. In no particular order, shout out to: CutterCross,
-dale_coop, jim, JollyShadow, Jonny, Logana and mouse spirit.
+working on the game. In no particular order, shout out to:
+chronicleoflegends, CutterCross, dale_coop, jim, JollyShadow, Jonny,
+Logana and mouse spirit.
 
 And of course the biggest shout out (which I almost forgot, shame on me)
 goes out to The New 8 Bit Heroes, for providing me with a tool which
