@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.2 - 2021-01-21
+
+### Added
+- The soundtrack has been extended with a winter theme song.
+
+### Changed
+- Fixed an off note in the main soundtrack.
+
 ## 1.0.1 - 2020-12-16
 
 ### Added
