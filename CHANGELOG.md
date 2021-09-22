@@ -2,12 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## 1.1.2 - 2021-09-22
+## 1.1.3 - 2021-09-22
 
 ### Added
 - A new game mode in which Cow can collect and place bridges
 - Two new sound effects to accompany said bridge building
 - Press B on title screen for debug mode
+- Graphical aesthetics
 
 ### Changed
 - Prevent looping on start and end screen
