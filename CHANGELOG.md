@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## 1.1.0 - 2021-09-22
+## 1.1.1 - 2021-09-22
 
 ### Added
 - A new game mode in which Cow can collect and place bridges
@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Prepared the soundtrack to prevent looping (work in progress)
 - Fixed a visual pattern bug
+- Reset the bridge flag on (re)loading a level
 
 ### Removed
 - Gutted base scripts to remove stuff I don't need, to free some
