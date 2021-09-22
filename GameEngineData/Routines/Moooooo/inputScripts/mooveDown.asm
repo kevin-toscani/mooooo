@@ -111,7 +111,6 @@ MOOVE_DOWN = #1
 
 
 ;; Check if player has won
-	LDA #$DB
 	LDA chompsLeft
 	SEC
 	SBC #1
