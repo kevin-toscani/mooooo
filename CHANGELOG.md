@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Prepared the soundtrack to prevent looping (work in progress)
+- Fixed a visual pattern bug
 
 ### Removed
 - Gutted base scripts to remove stuff I don't need, to free some
