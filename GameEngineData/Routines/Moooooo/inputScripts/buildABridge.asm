@@ -116,7 +116,7 @@
 	+
 	
 ;; Cow has a solid in his line of sight! So, let's build the bridge here,
-;; which is tile number $80 or $82 (based if it's horizontal or vertical)
+;; which is tile number $20 or $22 (based if it's horizontal or vertical)
 ;; and collision type #0 (null / walkable)
 	TYA
 	STA temp1

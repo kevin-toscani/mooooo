@@ -145,9 +145,17 @@ MOOVE_LEFT = #2
 ;; Play walking sound
 +doWalk:
     PlaySound #sfx_chomp
+	JMP +changeStepAndDirection
 
 
++itsWinter:
+	LDA #$0
+	STA allowInput
+	StartMoving player1_object, #LEFT
+	
+	
 ;; Update player state
++changeStepAndDirection:
 	ChangeActionStep player1_object, #$01
 	ChangeFacingDirection player1_object, #FACE_LEFT
     RTS
@@ -158,14 +166,3 @@ MOOVE_LEFT = #2
     PlaySound #sfx_wrong
     RTS
 
-
-;; It's winter! Make it slide
-+itsWinter:
-	TXA
-	STA temp ;; assumes the object we want to move is in x.
-	StartMoving temp, #LEFT
-	TXA
-	STA temp ;; assumes the object we want to move is in x.
-	ChangeFacingDirection temp, #FACE_LEFT
-	RTS
-	
