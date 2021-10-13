@@ -24,6 +24,13 @@ MOOVE_LEFT = #2
 		RTS
 	+
 
+;; Check if it's winter
+	LDA ScreenFlags00
+	AND #%00100000
+	BEQ +
+		JMP +itsWinter
+	+
+	
 ;; preset new player position
 	LDA Object_y_hi,x
 	STA tempy
@@ -143,14 +150,22 @@ MOOVE_LEFT = #2
 ;; Update player state
 	ChangeActionStep player1_object, #$01
 	ChangeFacingDirection player1_object, #FACE_LEFT
-    JMP +doneMoving
+    RTS
 
 
 ;; If player can't move, play wrong sfx
 +doWrong:
     PlaySound #sfx_wrong
-
-
-;; We're done here
-+doneMoving:
     RTS
+
+
+;; It's winter! Make it slide
++itsWinter:
+	TXA
+	STA temp ;; assumes the object we want to move is in x.
+	StartMoving temp, #LEFT
+	TXA
+	STA temp ;; assumes the object we want to move is in x.
+	ChangeFacingDirection temp, #FACE_LEFT
+	RTS
+	
