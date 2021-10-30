@@ -6,7 +6,7 @@
 	LDA #$00
 	STA hasBridge
 
-;; If level 255, hide player
+;; If level 255, hide player and place cowsor
 	LDA levelNumber
 	CMP #$FF
 	BEQ	+

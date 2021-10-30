@@ -33,6 +33,8 @@
 	.include ROOT\Game\Subroutines\doUpdateHudNumber.asm
 
 
+	.include SCR_MOOOOO_SUBROUTINES
+
 
 	.include SCR_HANDLE_SCREEN_UPDATE
 	.include SCR_DRAW_BOX

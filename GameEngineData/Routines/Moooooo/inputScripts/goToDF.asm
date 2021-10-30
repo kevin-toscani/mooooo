@@ -1,1 +1,2 @@
-WarpToScreen #0, #$DF, #1
+
+	WarpToScreen #0, #$DF, #1

@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.2 - 2021-10-31
+
+### Added
+- Selection screen for story mode or season mode
+- Placeholders for story mode
+- Placeholder for season select
+- Interstital soundtrack
+
+### Changed
+- Some minor graphical fixes
+
+
 ## 1.1.3 - 2021-09-22
 
 ### Added
