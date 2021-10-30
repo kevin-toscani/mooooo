@@ -2,6 +2,7 @@ song_mainTheme = 0
 song_welcome = 1
 song_winterTheme = 2
 song_theEnd = 3
+song_interstital = 4
 
 sfx_moo = 0
 sfx_wrong = 1
@@ -13,6 +14,7 @@ song_index_mainTheme = 0
 song_index_welcome = 1
 song_index_winterTheme = 2
 song_index_theEnd = 3
+song_index_interstital = 4
 
 sfx_index_sfx_moo = 0
 sfx_index_sfx_wrong = 1
@@ -25,6 +27,7 @@ song_list:
   .dw _welcome
   .dw _winterTheme
   .dw _theEnd
+  .dw _interstital
 
 sfx_list:
   .dw _sfx_moo
@@ -893,6 +896,73 @@ _theEnd_noise_0:
 
 _theEnd_noise_1:
   .db STI,0,SL0,11
+  .db RET
+
+_interstital:
+  .db 0
+  .db 8
+  .db 170
+  .db 6
+  .dw _interstital_square1
+  .dw _interstital_square2
+  .dw _interstital_triangle
+  .dw _interstital_noise
+  .dw 0
+
+_interstital_square1:
+_interstital_square1_loop:
+  .db CAL,<(_interstital_square1_0),>(_interstital_square1_0)
+  .db CAL,<(_interstital_square1_0),>(_interstital_square1_0)
+  .db CAL,<(_interstital_square1_0),>(_interstital_square1_0)
+  .db CAL,<(_interstital_square1_1),>(_interstital_square1_1)
+  .db GOT
+  .dw _interstital_square1_loop
+
+_interstital_square2:
+_interstital_square2_loop:
+  .db CAL,<(_interstital_square2_0),>(_interstital_square2_0)
+  .db CAL,<(_interstital_square2_0),>(_interstital_square2_0)
+  .db CAL,<(_interstital_square2_0),>(_interstital_square2_0)
+  .db CAL,<(_interstital_square2_0),>(_interstital_square2_0)
+  .db GOT
+  .dw _interstital_square2_loop
+
+_interstital_triangle:
+_interstital_triangle_loop:
+  .db CAL,<(_interstital_triangle_0),>(_interstital_triangle_0)
+  .db CAL,<(_interstital_triangle_0),>(_interstital_triangle_0)
+  .db CAL,<(_interstital_triangle_0),>(_interstital_triangle_0)
+  .db CAL,<(_interstital_triangle_0),>(_interstital_triangle_0)
+  .db GOT
+  .dw _interstital_triangle_loop
+
+_interstital_noise:
+_interstital_noise_loop:
+  .db CAL,<(_interstital_noise_0),>(_interstital_noise_0)
+  .db CAL,<(_interstital_noise_0),>(_interstital_noise_0)
+  .db CAL,<(_interstital_noise_0),>(_interstital_noise_0)
+  .db CAL,<(_interstital_noise_0),>(_interstital_noise_0)
+  .db GOT
+  .dw _interstital_noise_loop
+
+_interstital_square1_0:
+  .db STI,7,SL2,C2,SL1,E2,C2,SL2,G1,E2
+  .db RET
+
+_interstital_square1_1:
+  .db STI,7,SL2,C2,G1,A1,B1
+  .db RET
+
+_interstital_square2_0:
+  .db STI,0,SL8,C4
+  .db RET
+
+_interstital_triangle_0:
+  .db STI,2,SL2,C2,STI,0,E2,STI,2,G1,STI,0,E2
+  .db RET
+
+_interstital_noise_0:
+  .db STI,6,SL2,0,SL1,9,5,SL2,0,9
   .db RET
 
 _sfx_moo:
