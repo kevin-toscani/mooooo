@@ -1,5 +1,6 @@
 ;; Solid tile
 
+
 ;; Allow input upon touching a solid
 	LDA #$01
 	STA allowInput

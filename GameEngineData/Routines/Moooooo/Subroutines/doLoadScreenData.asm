@@ -175,7 +175,7 @@ skipSettingWarpInXY:
 	LDA (collisionPointer),y
 	STA chompsLeft
 
-;; Added UserScreenByte01; called levelNumber (or nah)
+;; Added UserScreenByte01; called levelNumber
 	INY
 	LDA (collisionPointer),y
 	STA levelNumber
