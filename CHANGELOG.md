@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.2.1 - 2021-10-31
+
+### Added
+- Season mode menu
+
+### Changed
+- Moved around some levels to accompany season mode
+- Updated graphics on menu screens
+- Updated the readme to reflect the seasonal changes
+
+
 ## 1.2 - 2021-10-31
 
 ### Added

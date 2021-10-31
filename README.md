@@ -20,9 +20,9 @@ Press A to start the game. Use the D-pad to navigate the cow through the
 field. If you get stuck, you can reset the level using the B-key.
 
 ## This is a demo
-The demo contains 20 levels. I aim to add a total of 200 levels in the
-finished product, and add another type of puzzle throughout the game. I
-hope you enjoy the demo and love to hear what you think!
+The demo contains 20 levels. The final version features a story mode
+with 100 levels, and four season modes with ~50 levels each. I hope
+you enjoy the demo and love to hear what you think!
 
 ## Thanks
 Thanks go out to the NESmakers forum users that playtested my game
