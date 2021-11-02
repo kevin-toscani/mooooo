@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.3 - 2021-11-02
+
+### Added
+- Fall aesthetics
+- Five new fall levels
+- Summer and Fall interstital screens
+
+### Changed
+- GG screen: end of demo message
+- Readme text, as there are 25 instead of 20 levels now
+- Start screen: added demo and NESmaker message
+
+### Removed
+- Menu option on start screen (on behalf of demo)
+
+
 ## 1.2.2 - 2021-10-31
 
 ### Added
