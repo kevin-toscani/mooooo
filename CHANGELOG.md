@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Summer and Fall interstital screens
 
 ### Changed
+- Aesthetics across the first twenty demo levels
 - GG screen: end of demo message
 - Readme text, as there are 25 instead of 20 levels now
 - Start screen: added demo and NESmaker message
